@@ -1,0 +1,38 @@
+{
+  "name": "chrome-ext-vue3-template",
+  "version": "1.0.0",
+  "description": "谷歌插件开发 VUE3 模板",
+  "author": {
+    "email": "edwinhuish@gmail.com",
+    "name": "Edwin Hui",
+    "url": "https://github.com/edwinhuish/chrome-ext-vue3-template"
+  },
+  "scripts": {
+    "dev": "cd src && vite",
+    "build": "cd src && vite build"
+  },
+  "dependencies": {
+    "pinia": "^2.0.16",
+    "vue": "^3.0.4"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.2",
+    "@crxjs/vite-plugin": "^1.0.12",
+    "@types/chrome": "^0.0.191",
+    "@types/node": "^18.0.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/compiler-sfc": "^3.0.4",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.2.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2",
+    "vite": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=14.14.0"
+  }
+}
